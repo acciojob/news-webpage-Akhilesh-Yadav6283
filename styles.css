@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+}
+.header{
+	background-color:#011e29;
+	color:white;
+	padding:10px;
+	text-align:center;
+}
+.latest-news-section{
+	background-color:white;
+	padding:5px;
+	width:200px;
+	height:150px
+}
+.main-article{
+	width:300px;
+	height:250px;
+	padding:5px;
+	text-align:center;
+	background-color:white;
+}
+.pictorial-news-section{
+	background-color:white;
+	width:200px;
+	height:400px;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	justify-content:space-evenly;
+	position:contain;
+	
+}
+.pictorial-news-section>div>img{
+	width:150px;
+}
+.Akhi{
+	display:flex;
+/* 	justify-content:space-between; */
+/* 	align-item:center; */
+	gap:5px;
+}
